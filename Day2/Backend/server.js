@@ -55,7 +55,7 @@ const jokes = [
         content: 'this is Joke 10'
     }
 ]
-app.get('/jokes',(req,res) => {
+app.get('/baseApi/jokes',(req,res) => {
     res.json(jokes);
 })
 
