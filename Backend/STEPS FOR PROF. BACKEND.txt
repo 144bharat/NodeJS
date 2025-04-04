@@ -1,0 +1,18 @@
+1. CMD - RUN(npm init) --> To Create package.json (Manifest file).
+2. Open Package.json --> Add Type:"Module" (If we want use mordern javascript. Like import statement like structure).
+3. Install Prettier --> for Linting and formatting.
+    3.a) Create .prettierrc file --> for writting the formatting rules.
+    3.b) Create .prettierignore file --> for ignoring few files from formatting done by prettier.
+4. Install Packages --> 
+                        a) main dependency --> i) dotenv
+                                               ii) mongoose
+                                               iii) express
+                        b) dev-dependency -->  i) nodemon
+                                               ii) prettier
+5. Create .env file
+6. Create src folder --> this folder contains all the logical files and folder that we are going to program later. And now inside src/ folder:
+    6.a) Create constants.js --> We create common const variables like DB_NAME.
+    6.b) Create database folder and then db.js inside it. --> This separate file is useful to remove and handle the database related logic separately without exposing in the index.js.
+    6.c) Create index.js --> This file i will make a main connection of my backend application with mongodb.
+    6.d) Create app.js --> This file is used for running the backend server.
+7. Installed cookie-parser --> while we are using cookie sessions then we need this package. and cors --> we need this package at the time of connecting the frontend with backend.

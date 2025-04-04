@@ -1,4 +1,4 @@
-//This file is used for database connection using mongoose.
+//This file i will make a main connection of my backend application with mongodb.
 import dotenv from "dotenv";
 import connectDB from './db/index.js';
 import express from 'express';

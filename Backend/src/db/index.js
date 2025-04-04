@@ -1,4 +1,4 @@
-//This file is for creating database connection.
+//This separate file is useful to remove and handle the database related logic separately without exposing in the index.js.
 import mongoose from "mongoose";
 import {DB_NAME} from "../constants.js";
 
